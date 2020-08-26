@@ -1,0 +1,56 @@
+.mac {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+.mac .app {
+  width: 20%;
+  height: 100%;
+  background-color: red;
+}
+.mac .a {
+  width: 80%;
+  height: 100%;
+  background-color: olive;
+
+  display: flex;
+  flex-direction: column;
+}
+.a .a__col-1 {
+  width: 100%;
+  height: 30%;
+  background-color: orange;
+}
+.a .a__col-2 {
+  width: 100%;
+  height: 70%;
+  background-color: orangered;
+
+  display: flex;
+  flex-direction: row;
+}
+.a__col-2 .b__col-1 {
+  width: 50%;
+  height: 100%;
+  background-color: orchid;
+
+  display: flex;
+  flex-direction: column;
+}
+.a__col-2 .b__col-2 {
+  width: 50%;
+  height: 100%;
+  background-color: palegoldenrod;
+}
+.b__col-1 .c__col-1 {
+  width: 100%;
+  height: 50%;
+  background-color: palevioletred;
+}
+.b__col-1 .c__col-2 {
+  width: 100%;
+  height: 50%;
+  background-color: plum;
+}
